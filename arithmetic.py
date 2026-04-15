@@ -13,6 +13,8 @@ def divide(a, b):
 
 def square(a):
     return a * a
+def cube(a):
+    return a ** 3
 
 if __name__ == '__main__':
     print("add() - ", add(1, 2))
@@ -21,3 +23,4 @@ if __name__ == '__main__':
     print("divide() - ", divide(1, 2))
     print("square() - ", square(1))
 
+    print("cube() - ", cube(3))
